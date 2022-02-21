@@ -1,6 +1,6 @@
 name: "ZAP Baseline Scan"
-
-on: workflow_dipatch
+# Controls when the workflow will run
+on: workflow_dispatch
 
 jobs:
   zap_scan:
