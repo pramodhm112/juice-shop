@@ -39,6 +39,9 @@ jobs:
           config: >- # more at semgrep.dev/explore
             p/security-audit
             p/secrets
+            p/owasp-top-ten
+            p/r2c-security-audit
+            p/javascript
 
       # Upload SARIF file generated in previous step
       - name: Upload SARIF file
