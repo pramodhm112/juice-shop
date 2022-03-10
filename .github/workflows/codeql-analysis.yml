@@ -27,7 +27,7 @@ jobs:
         config-file: advanced-security/codeql-queries/config/codeql.yml@main
         tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220214-6770373/codeql-bundle.tar.gz
         # tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220214-8603235/codeql-bundle.tar.gz
-        packs: codeql/javascript-queries
+        packs: +codeql/javascript-queries
         queries: +security-and-quality
         debug: true
 
