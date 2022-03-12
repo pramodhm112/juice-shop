@@ -22,7 +22,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
-        tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220214-3d46087/codeql-bundle.tar.gz
+        tools: https://github.com/amitgupta7/codeql-runall-bundle/releases/download/codeql-bundle-20220214-992c6715/codeql-bundle.tar.gz
         #tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220214-6770373/codeql-bundle.tar.gz
         #config-file: advanced-security/codeql-queries/config/codeql.yml@main
         #queries: +security-and-quality
