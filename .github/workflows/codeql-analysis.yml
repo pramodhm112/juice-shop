@@ -23,6 +23,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220214-7e6f704/codeql-bundle.tar.gz
+        query: security-and-quality
         debug: true
 
     - name: Autobuild
