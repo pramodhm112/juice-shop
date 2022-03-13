@@ -24,8 +24,8 @@ jobs:
         languages: ${{ matrix.language }}
         tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220214-3900867/codeql-bundle.tar.gz
         #tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220214-6770373/codeql-bundle.tar.gz
-        #config-file: advanced-security/codeql-queries/config/codeql.yml@main
-        #queries: +security-and-quality
+        config-file: advanced-security/codeql-queries/config/codeql.yml@main
+        queries: +code-scanning
         debug: true
 
     - name: Autobuild
