@@ -22,7 +22,8 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
-        tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220224-dbc7f4e/codeql-bundle.tar.gz
+        tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220224-e26873d/codeql-bundle.tar.gz
+        queries: +security-and-quality
         debug: true
 
     - name: Autobuild
